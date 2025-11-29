@@ -1,0 +1,63 @@
+{
+  "meeting_summary": "Discussion of week's priorities, including bug fixes, performance optimization, and design updates",
+  "tasks": [
+    {
+      "task_id": 1,
+      "title": "Fix critical login bug",
+      "description": "Resolve the critical login bug reported by users",
+      "assigned_to": "Sakshi",
+      "deadline": "tomorrow evening",
+      "priority": "Critical",
+      "dependencies": null,
+      "reasoning": "Sakshi is a frontend developer and the task is related to UI bugs",
+      "context": "Blocking users, high priority"
+    },
+    {
+      "task_id": 2,
+      "title": "Optimize database performance",
+      "description": "Improve database performance to enhance user experience",
+      "assigned_to": "Mohit",
+      "deadline": "end of this week",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Mohit has skills in database and performance optimization",
+      "context": "Affecting user experience"
+    },
+    {
+      "task_id": 3,
+      "title": "Update API documentation",
+      "description": "Update API documentation before Friday's release",
+      "assigned_to": "Mohit",
+      "deadline": "Friday",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Mohit is a backend engineer and API documentation is related to backend",
+      "context": "High priority, before Friday's release"
+    },
+    {
+      "task_id": 4,
+      "title": "Design new onboarding screens",
+      "description": "Create designs for new onboarding screens",
+      "assigned_to": "Arjun",
+      "deadline": "next Monday",
+      "priority": "Medium",
+      "dependencies": null,
+      "reasoning": "Arjun is a UI/UX designer and has experience with UI designs",
+      "context": "For next sprint"
+    },
+    {
+      "task_id": 5,
+      "title": "Write unit tests for payment module",
+      "description": "Create unit tests for the payment module",
+      "assigned_to": "Lata",
+      "deadline": "Wednesday",
+      "priority": "Medium",
+      "dependencies": [
+        1
+      ],
+      "reasoning": "Lata is a QA engineer and unit tests are related to testing",
+      "context": "Dependent on login bug fix"
+    }
+  ],
+  "unassigned_tasks": []
+}

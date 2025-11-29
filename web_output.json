@@ -1,0 +1,65 @@
+{
+  "meeting_summary": "Team meeting to discuss priorities for the week, focusing on UI fixes, API performance, wireframes, testing, and API authentication logs.",
+  "tasks": [
+    {
+      "task_id": 1,
+      "title": "Fix UI layout issues on dashboard in Safari",
+      "description": "Resolve UI responsiveness bugs on the dashboard for Safari users",
+      "assigned_to": "Sakshi",
+      "deadline": "Wednesday",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Sakshi is a React and CSS expert, making her the best fit for this task.",
+      "context": "Fixes are needed for the next patch"
+    },
+    {
+      "task_id": 2,
+      "title": "Improve product listing API query performance",
+      "description": "Optimize the product listing API for faster responses",
+      "assigned_to": "Mohit",
+      "deadline": "Friday evening",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Mohit has expertise in Node.js and PostgreSQL optimization, making him suitable for this task.",
+      "context": "Slow API responses are a current issue"
+    },
+    {
+      "task_id": 3,
+      "title": "Create updated wireframes for the new notification center",
+      "description": "Design updated wireframes for the notification center using Figma",
+      "assigned_to": "Arjun",
+      "deadline": "Next Monday",
+      "priority": "Medium",
+      "dependencies": null,
+      "reasoning": "Arjun is the team's UI/UX designer with Figma skills, making him the best fit.",
+      "context": "Building on last week's successful designs"
+    },
+    {
+      "task_id": 4,
+      "title": "Conduct full testing coverage for UI fixes",
+      "description": "Test the UI fixes using Selenium and Jest",
+      "assigned_to": "Lata",
+      "deadline": "Weekend",
+      "priority": "High",
+      "dependencies": [
+        1
+      ],
+      "reasoning": "Lata is the QA Engineer with skills in testing, automation, and quality assurance.",
+      "context": "Testing depends on Sakshi completing the UI fixes, planning to start on Thursday"
+    },
+    {
+      "task_id": 5,
+      "title": "Add API authentication logs for analytics",
+      "description": "Implement API authentication logs for analytics purposes",
+      "assigned_to": "Mohit",
+      "deadline": null,
+      "priority": "Medium",
+      "dependencies": [
+        2
+      ],
+      "reasoning": "Mohit is responsible for backend performance updates, which this task depends on. Assignment is based on role alignment and past experience.",
+      "context": "Task is scheduled for next week, depends on backend performance updates being ready"
+    }
+  ],
+  "unassigned_tasks": []
+}

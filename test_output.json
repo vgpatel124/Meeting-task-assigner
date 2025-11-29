@@ -1,0 +1,63 @@
+{
+  "meeting_summary": "Discussion of this week's priorities, including bug fixes, performance optimization, and design tasks",
+  "tasks": [
+    {
+      "task_id": 1,
+      "title": "Fix critical login bug",
+      "description": "Resolve the critical login bug reported by users",
+      "assigned_to": "Sakshi",
+      "deadline": "tomorrow evening",
+      "priority": "Critical",
+      "dependencies": null,
+      "reasoning": "Explicitly mentioned and aligned with Sakshi's role as Frontend Developer",
+      "context": "Blocking users, high priority"
+    },
+    {
+      "task_id": 2,
+      "title": "Optimize database performance",
+      "description": "Improve database performance to enhance user experience",
+      "assigned_to": "Mohit",
+      "deadline": "end of this week",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Explicitly mentioned and aligned with Mohit's skills in backend optimization",
+      "context": "Affecting user experience"
+    },
+    {
+      "task_id": 3,
+      "title": "Update API documentation",
+      "description": "Update API documentation before Friday's release",
+      "assigned_to": "Mohit",
+      "deadline": "Friday",
+      "priority": "High",
+      "dependencies": null,
+      "reasoning": "Aligned with Mohit's role as Backend Engineer and skills in APIs",
+      "context": "High priority for Friday's release"
+    },
+    {
+      "task_id": 4,
+      "title": "Design new onboarding screens",
+      "description": "Create designs for new onboarding screens",
+      "assigned_to": "Arjun",
+      "deadline": "next Monday",
+      "priority": "Medium",
+      "dependencies": null,
+      "reasoning": "Explicitly mentioned and aligned with Arjun's role as UI/UX Designer and past experience",
+      "context": "For next sprint"
+    },
+    {
+      "task_id": 5,
+      "title": "Write unit tests for payment module",
+      "description": "Create unit tests for the payment module",
+      "assigned_to": "Lata",
+      "deadline": "Wednesday",
+      "priority": "Medium",
+      "dependencies": [
+        1
+      ],
+      "reasoning": "Aligned with Lata's role as QA Engineer and skills in testing",
+      "context": "Dependent on login bug fix"
+    }
+  ],
+  "unassigned_tasks": []
+}

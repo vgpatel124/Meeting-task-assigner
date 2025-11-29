@@ -139,13 +139,19 @@ meeting-task-assigner/
 
 ## How It Works (Technical Stuff)
 
-1. **Transcription**: Uses Groq's Whisper model to convert speech to text
-2. **Parsing**: Llama 3.3 70B reads through and identifies tasks
-3. **Assignment**: Custom logic matches tasks to people based on:
-   - Direct mentions ("hey Alex, can you...")
-   - Role alignment (backend task → backend dev)
-   - Skill matching (database issue → person who knows databases)
-4. **Output**: Structured JSON with all the details
+1. Transcription: Uses Groq's Whisper model to convert speech to text (external API - allowed per project requirements)
+2. Task Identification: Custom keyword matching and pattern recognition
+    - Looks for action words (fix, create, update, etc.)
+    - Identifies task-related phrases (need to, should, must, etc.)
+3. Assignment Logic: 100% custom rule-based system
+    - Checks for explicit name mentions first
+    - Scores team members based on skill keywords in task description
+    - Matches task types to roles (frontend, backend, QA, etc.)
+    - Assigns to highest scoring team member
+4. Priority & Deadlines: Pattern matching on keywords
+    - Critical: "urgent", "blocking", "asap"
+    - Deadlines: "by tomorrow", "end of week", etc.
+5. Output: Structured JSON with all the details
 
 
 ## Limitations

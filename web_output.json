@@ -1,65 +1,92 @@
 {
-  "meeting_summary": "Team meeting to discuss priorities for the week, focusing on UI fixes, API performance, wireframes, testing, and API authentication logs.",
+  "meeting_summary": "Meeting discussion with 8 tasks identified from 14 discussion points",
   "tasks": [
     {
       "task_id": 1,
-      "title": "Fix UI layout issues on dashboard in Safari",
-      "description": "Resolve UI responsiveness bugs on the dashboard for Safari users",
+      "title": "fix these UI responses bugs by",
+      "description": "fix these UI responses bugs by Wednesday",
       "assigned_to": "Sakshi",
       "deadline": "Wednesday",
-      "priority": "High",
+      "priority": "Medium",
       "dependencies": null,
-      "reasoning": "Sakshi is a React and CSS expert, making her the best fit for this task.",
-      "context": "Fixes are needed for the next patch"
+      "reasoning": "Best match based on skills: QA Engineer",
+      "context": "Since you are React CSS expert, please fix these UI responses bugs by Wednesday"
     },
     {
       "task_id": 2,
-      "title": "Improve product listing API query performance",
-      "description": "Optimize the product listing API for faster responses",
+      "title": "improve the query performance by Friday",
+      "description": "improve the query performance by Friday evening",
       "assigned_to": "Mohit",
-      "deadline": "Friday evening",
-      "priority": "High",
+      "deadline": "Friday",
+      "priority": "Medium",
       "dependencies": null,
-      "reasoning": "Mohit has expertise in Node.js and PostgreSQL optimization, making him suitable for this task.",
-      "context": "Slow API responses are a current issue"
+      "reasoning": "Best match based on skills: QA Engineer",
+      "context": "js and PostgreSQL optimization so please improve the query performance by Friday evening"
     },
     {
       "task_id": 3,
-      "title": "Create updated wireframes for the new notification center",
-      "description": "Design updated wireframes for the notification center using Figma",
+      "title": "Arjun we need updated wireframes for",
+      "description": "Arjun we need updated wireframes for the new notification center for Figma designs",
       "assigned_to": "Arjun",
-      "deadline": "Next Monday",
+      "deadline": "Friday",
       "priority": "Medium",
       "dependencies": null,
-      "reasoning": "Arjun is the team's UI/UX designer with Figma skills, making him the best fit.",
-      "context": "Building on last week's successful designs"
-    },
-    {
-      "task_id": 4,
-      "title": "Conduct full testing coverage for UI fixes",
-      "description": "Test the UI fixes using Selenium and Jest",
-      "assigned_to": "Lata",
-      "deadline": "Weekend",
-      "priority": "High",
-      "dependencies": [
-        1
-      ],
-      "reasoning": "Lata is the QA Engineer with skills in testing, automation, and quality assurance.",
-      "context": "Testing depends on Sakshi completing the UI fixes, planning to start on Thursday"
+      "reasoning": "Explicitly mentioned in discussion",
+      "context": "Arjun we need updated wireframes for the new notification center for Figma designs"
     },
     {
       "task_id": 5,
-      "title": "Add API authentication logs for analytics",
-      "description": "Implement API authentication logs for analytics purposes",
-      "assigned_to": "Mohit",
-      "deadline": null,
+      "title": "Lata once Saksi finishes the UI",
+      "description": "Lata once Saksi finishes the UI fixes we will need full testing coverage using Selenium and Jest",
+      "assigned_to": "Lata",
+      "deadline": "Next week",
       "priority": "Medium",
       "dependencies": [
-        2
+        4
       ],
-      "reasoning": "Mohit is responsible for backend performance updates, which this task depends on. Assignment is based on role alignment and past experience.",
-      "context": "Task is scheduled for next week, depends on backend performance updates being ready"
+      "reasoning": "Explicitly mentioned in discussion",
+      "context": "Lata once Saksi finishes the UI fixes we will need full testing coverage using Selenium and Jest"
+    },
+    {
+      "task_id": 6,
+      "title": "Plan to start testing on Thursday",
+      "description": "Plan to start testing on Thursday and finish by the weekend",
+      "assigned_to": "Lata",
+      "deadline": "Weekend",
+      "priority": "Medium",
+      "dependencies": null,
+      "reasoning": "Best match based on skills: testing",
+      "context": "Plan to start testing on Thursday and finish by the weekend"
+    },
+    {
+      "task_id": 7,
+      "title": "add API authentication logs for analytics",
+      "description": "add API authentication logs for analytics",
+      "assigned_to": "Mohit",
+      "deadline": "Weekend",
+      "priority": "Medium",
+      "dependencies": null,
+      "reasoning": "Best match based on skills: QA Engineer",
+      "context": "Finally, we must add API authentication logs for analytics"
+    },
+    {
+      "task_id": 8,
+      "title": "This depends on backend performance updates",
+      "description": "This depends on backend performance updates being ready first",
+      "assigned_to": "Mohit",
+      "deadline": "Next week",
+      "priority": "Medium",
+      "dependencies": [
+        7
+      ],
+      "reasoning": "Best match based on skills: QA Engineer",
+      "context": "This depends on backend performance updates being ready first"
     }
   ],
-  "unassigned_tasks": []
+  "unassigned_tasks": [
+    {
+      "description": "finish this by next Monday",
+      "reason": "No team member with matching skills found"
+    }
+  ]
 }
